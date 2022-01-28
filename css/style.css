@@ -764,10 +764,10 @@ img{
     margin-bottom: 33px;
 }
 
-.login_code form input[type="email"],.login_code form input[type="password"]{
+.login_code form input[type="email"],.login_code form input[type="password"],.login_code form input[type="text"]{
     width: 100%;
 }
-.login_code form input[type="email"]{
+.login_code form input[type="email"],.login_code form input[type="text"]{
     margin-bottom: 16px;
 }
 .login_code_btn{
@@ -835,10 +835,10 @@ img{
     margin-bottom: 33px;
 }
 
-.register_newcode_content form input[type="email"],.register_newcode_content form input[type="password"]{
+.register_newcode_content form input[type="email"],.register_newcode_content form input[type="password"],.register_newcode_content form input[type="text"]{
     width: 100%;
 }
-.register_newcode_content form input[type="email"]{
+.register_newcode_content form input[type="email"],.register_newcode_content form input[type="text"]{
     margin-bottom: 16px;
 }
 .register_newcode_content_btn{
