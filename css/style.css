@@ -16,7 +16,7 @@ img{
     font-family: 'Noto Sans TC', sans-serif;
 }
 .header{
-    padding: 210px 0 210px 0;
+    height: 420px;
     background: url(https://upload.cc/i1/2021/12/31/AXDer7.png) center no-repeat;
     position: relative;
     color:#ffff;
@@ -194,7 +194,7 @@ img{
         width: 100%;
     }
 }
-@media (max-width:414px){
+@media (max-width:767px){
     .content_secrets h4::after{
         display: none; 
     }
@@ -211,6 +211,11 @@ img{
         margin-bottom: 30px;
         width: 100%;
     }
+    .content_secrets ul li img{
+        width: 50%;
+    }
+}
+@media (max-width:414px){
     .content_secrets ul li img{
         width: 80%;
     }
@@ -258,7 +263,7 @@ img{
     .content_todaychef_name{
         width: 100%;
         margin:0 0 0 0 ;
-        padding: 8% 5%;
+        padding: 55px 5%;
     }
 }
 /* content_thoughts */
@@ -351,7 +356,7 @@ img{
 .content_position_booking_information{
     width: 50%;
 }
-.content_position_booking_information form input[type="email"],.content_position_booking_information form input[type="password"],.content_position_booking_information form input[type="number"],.content_position_booking_information form input[type="text"]{
+.content_position_booking_information form input[type="email"],.content_position_booking_information form input[type="password"],.content_position_booking_information form input[type="number"],.content_position_booking_information form input[type="text"],.content_position_booking_information form input[type="tel"]{
     width: 100%;
 }
 .content_position_booking_information label{
@@ -419,8 +424,6 @@ img{
 }
 .footer_totle > div{
     width: 50%;
-    display: flex;
-    flex-direction: column;
     
 }
 .footer_totle_about{
@@ -429,6 +432,13 @@ img{
 .footer_totle_contact ul{
     list-style:disc;
     padding: 0 0 0 20px;
+}
+.footer_totle_contact ul li a{
+    color: #3D1101;
+    transition: all .5s;
+}
+.footer_totle_contact ul li a:hover{
+    opacity: 0.6;
 }
 .footer_community{
     display: flex;
@@ -664,7 +674,7 @@ img{
     right: 25%;
 }
 
-.order_content_information li div div a{
+.order_content_information li div .addshop{
     display: block; 
     border: 2px solid #FF5E45;
     border-radius: 3px;
@@ -672,7 +682,7 @@ img{
     text-decoration: none;
     transition: all .5s;
 }
-.order_content_information li div div a:hover{
+.order_content_information li div .addshop:hover{
     background-color:#FF5E45;
     color: #ffff;
 }
@@ -723,8 +733,6 @@ img{
 /* login */
 .login{ 
     margin-top: 50px;
-    display: flex;
-    flex-direction: column;
     color: #3D1101;
     
 }
@@ -782,8 +790,6 @@ img{
 /* register */
 .register{ 
     margin-top: 50px;
-    display: flex;
-    flex-direction: column;
     color: #3D1101;  
 }
 .register h3{
@@ -797,8 +803,6 @@ img{
     font-size: 20px;
 }
 .register_newcode{
-    display: flex;
-    flex-direction: column;
     width: 620px;
     margin: 35px auto;
     border-top: 4px solid #FF5E45;
