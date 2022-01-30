@@ -619,6 +619,42 @@ img{
     flex-wrap: wrap;
     justify-content:space-between;
 }
+
+.order_content_information li > span{
+    display: block;
+    position: absolute;
+    top: -15px;
+    right: -45px;
+    transform: rotate(45deg);
+    height: 20px;
+    border-color:  transparent transparent #00CC99 transparent;
+    border-style: solid;
+    border-width: 30px;
+    white-space: nowrap;
+    color: #ffff;
+    font-size: 14px;
+    line-height: 2;   
+}
+.order_content_information li > span::after{
+    content: "";
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #078F6D;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+.order_content_information li > span::before{
+    content: "";
+    border-bottom: 7px solid #078F6D;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 28px;
+    right: 76.5px;
+}
+
 .order_content_information li{
     margin-bottom: 30px;
     width: 31%;
