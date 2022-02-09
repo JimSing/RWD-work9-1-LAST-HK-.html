@@ -821,6 +821,11 @@ img{
 .login_code_btn button,.login_code_btn a{
     width: 47%;
 }
+@media(max-width:480px){
+    .login_code_btn button[type=submit]{
+        margin: 0px;
+    }
+}
 
 
 /* register */
